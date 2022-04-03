@@ -1,6 +1,6 @@
 ---
-title:
-date:
+title: Как убить идею
+date: 1
 type: post
 ---
 

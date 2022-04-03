@@ -1,6 +1,6 @@
 ---
 title: Cyberвсранk 2077
-date:
+date: 0
 type: post
 ---
 
