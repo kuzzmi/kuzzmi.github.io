@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./src/tsconfig.json"
+  },
+  "settings": {
+    "import/internal-regex": '^common',
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      }
+    }
+  }
+}
