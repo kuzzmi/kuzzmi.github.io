@@ -2,12 +2,12 @@
 layout:      post
 date:        2016-02-15 16:50:36 +0200
 title:       "Creating Ember CLI Addon with External Library. Part 1"
+lang:        en
 tags:
     - technology
     - ember
     - tutorial
     - javascript
-lang:        en
 description: >
     In this post I'll try to describe a step-by-step
     creation of Ember CLI addon for wrapping an external

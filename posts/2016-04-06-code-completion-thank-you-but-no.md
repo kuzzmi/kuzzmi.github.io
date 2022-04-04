@@ -2,13 +2,13 @@
 layout:      post
 date:        2016-04-06 19:50:32 +0200
 title:       "Code completion? Thank you, but no."
+lang:        en
 tags:
     - technology
     - javascript
     - web development
     - development
     - vim
-lang:        en
 description: >
     How working without code completion, bright syntax highlighting and other
     "incredibly needed" utilities can make you more productive, flexible and

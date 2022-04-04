@@ -2,13 +2,13 @@
 layout:      post
 date:        2016-02-08 11:15:51 +0200
 title:       "Flexbox and Relative Sizes"
+lang:        en
 tags:
     - technology
     - html
     - css
     - web development
     - tips
-lang:        en
 description: >
     How to implement the layout that utilizes both flexbox and relative
     sizing. Incredibly useful for displaying a cascade grid within a

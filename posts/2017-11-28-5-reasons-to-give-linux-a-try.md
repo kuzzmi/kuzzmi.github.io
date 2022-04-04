@@ -2,12 +2,12 @@
 layout:      post
 date:        2017-11-28 00:36:36 +0200
 title:       "5 Reasons To Give Linux A Try"
+lang:        en
 tags:
     - technology
     - linux
     - software
     - os
-lang:        en
 image:       /assets/img/5-reasons-to-give-linux-a-try.png
 description: >
     This time I want to share 5 reasons why I advocate for using Linux whenever

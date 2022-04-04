@@ -2,13 +2,13 @@
 layout:      post
 date:        2016-03-21 15:44:51 +0200
 title:       "Be Productive without Administrator Rights"
+lang:        en
 tags:
     - technology
     - productivity
     - development
     - tips
     - windows
-lang:        en
 description: >
     You cannot install anything? You cannot even install your favorite font
     for IDE? Your admins have disabled task scheduling management for you?

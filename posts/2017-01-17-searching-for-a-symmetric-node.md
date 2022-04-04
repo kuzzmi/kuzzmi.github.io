@@ -2,12 +2,12 @@
 layout:      post
 date:        2017-01-17 20:15:42 +0200
 title:       "Searching for a Symmetric Node"
+lang:        en
 tags:
     - technology
     - problems solving
     - html
     - javascript
-lang:        en
 description: >
     After a while decided to post some more problem solutions. The first
     problem this year is about looking for a node in a DOM tree: given two

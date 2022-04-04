@@ -2,6 +2,7 @@
 layout:      post
 date:        2018-07-28 22:53:59 +0200
 title:       "Use Elm as a Reducer in Redux"
+lang:        en
 tags:
     - technology
     - react
@@ -9,7 +10,6 @@ tags:
     - web development
     - javascript
     - elm
-lang:        en
 description: >
     Want to use Elm in your project, but a bit hesitant going cold turkey? In
     this blog post I'll try to show how you can use the best from both worlds

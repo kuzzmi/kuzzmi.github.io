@@ -2,12 +2,12 @@
 layout:      post
 date:        2017-07-14 13:27:17 +0200
 title:       "React-Router v4: Activity indicator"
+lang:        en
 tags:
     - technology
-    -react
+    - react
     - react-native
     - javascrip
-lang:        en
 description: >
     A simple example of how to create a react-router link with indication of being active
 ---
