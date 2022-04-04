@@ -2,8 +2,8 @@
 layout:      post
 date:        2017-06-24 12:00:59 +0200
 title:       "Sia and How It Will Change Cloud Storage"
-tags:        [ cryptocurrency, siacoin, cloud ]
-comments:    true
+tags:        technology, cryptocurrency, siacoin, cloud
+lang:        en
 description: >
     Sia is a decentralized and encrypted cloud that uses blockchain technology
     for making cloud storage truly private. Here I give a few thoughts about it

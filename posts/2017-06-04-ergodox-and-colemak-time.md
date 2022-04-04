@@ -2,13 +2,13 @@
 layout:      post
 date:        2017-06-04 21:28:38 +0200
 title:       "ErgoDox and Colemak Time"
-tags:        [ keyboards, development ]
-comments:    true
+tags:        technology, keyboards, development
+lang:        en
 description: >
     I've finally switched to ErgoDox and Colemak and would
     like to share some of my thoughts on this.
 ---
-comments:    true
+
 **TL;DR** Yes that was hard and yes after 3 months of regular typing my typing
 speed is still worse than before. However, I don't regret making that decision
 and my typing _(coding)_ sessions can be now way longer without any issues.

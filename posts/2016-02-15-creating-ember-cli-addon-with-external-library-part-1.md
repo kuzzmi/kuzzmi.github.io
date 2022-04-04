@@ -2,13 +2,12 @@
 layout:      post
 date:        2016-02-15 16:50:36 +0200
 title:       "Creating Ember CLI Addon with External Library. Part 1"
-tags:        [ ember, tutorial, javascript ]
-comments:    true
+tags:        technology, ember, tutorial, javascript
+lang:        en
 description: >
     In this post I'll try to describe a step-by-step
     creation of Ember CLI addon for wrapping an external
     library, covering just basics that will allow you to
-comments:    true
     wrap your favorite libraries and reuse them in Ember.
 ---
 In the comments section to my previous [post][post] Ken Snyder suggested to wrap the [WebFontLoader][wfl] library in [Ember CLI][ecli] addon. That is definitely a good idea because using [WebFontLoader][wfl] is a wise solution when it comes to loading web fonts and detecting whether the font is loaded or not.

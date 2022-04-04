@@ -2,8 +2,8 @@
 layout:      post
 date:        2016-02-20 13:58:16 +0200
 title:       "Creating Ember CLI Addon with External Library. Part 2"
-tags:        [ ember, javascript, tutorial ]
-comments:    true
+tags:        technology, ember, javascript, tutorial
+lang:        en
 description: >
     In this post we will finish development of ember-cli-webfontloader
     addon and I will describe some issues you might experience during

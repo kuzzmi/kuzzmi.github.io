@@ -13,7 +13,8 @@
     "next": "12.1.4",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "showdown": "^2.0.3"
+    "showdown": "^2.0.3",
+    "yaml": "^1.10.2"
   },
   "devDependencies": {
     "@types/node": "^17.0.23",

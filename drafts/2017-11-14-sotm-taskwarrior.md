@@ -5,13 +5,9 @@ title:       "SotM: TaskWarrior - Great CLI Task Manager"
 name:        "TaskWarrior"
 logo:        "http://lh3.googleusercontent.com/I6_8UWZI7hoh4NQ1QM4NaRrJfa_bSRgloOlQ2w_ADqelwUvTGJ1NsktlCgnByf7UHNk=w200"
 link:        "https://taskwarrior.org"
-comments:    true
+lang:        en
 type:        sotm
-tags:
-    - productivity
-    - task managers
-    - cli
-    - software of the month
+tags:        technology, productivity, task managers, cli, software of the month
 description: >
     Taskwarrior is an open-source, cross platform time and task management tool.
     It has a command-line interface rather than a graphical user interface.

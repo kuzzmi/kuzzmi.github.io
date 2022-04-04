@@ -2,11 +2,8 @@
 layout:      post
 date:        2017-11-14 9:54:09 +0200
 title:       "Software of the Month"
-tags:
-    - software
-    - linux
-    - cli
-comments:    true
+tags:        technology, software, linux, cli
+lang:        en
 description: >
     I decided to start a new post category, that will (hopefully)
     contain in the a list of the most useful/interesting software

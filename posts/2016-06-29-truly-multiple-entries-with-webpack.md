@@ -2,8 +2,8 @@
 layout:      post
 date:        2016-06-29 15:16:15 +0200
 title:       "Truly Multiple Entries with Webpack"
-tags:        [ react, javascript, web development, webpack, tips ]
-comments:    true
+tags:        technology, react, javascript, web development, webpack, tips
+lang:        en
 description: >
     In this post, I will try to explain how to handle
     situations when you need to use Webpack with a lot

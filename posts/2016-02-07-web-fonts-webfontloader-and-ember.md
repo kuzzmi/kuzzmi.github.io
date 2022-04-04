@@ -2,13 +2,12 @@
 layout:      post
 date:        2016-02-07 17:54:44 +0200
 title:       "Web Fonts, WebFontLoader and Ember"
-tags:        [ javascript, tips, ember, fonts, web development ]
-comments:    true
+tags:        technology, javascript, tips, ember, fonts, web development
+lang:        en
 description: >
     In this post I describe why it can be a good idea to
     use Web Font Loader library and how to use it with
     Ember application.
-comments:    true
 ---
 In this blog I'm doing one not so tricky, though not trivial thing, when I want to set a navigational indicator styling based on the current "active" route.
 

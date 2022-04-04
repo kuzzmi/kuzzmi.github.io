@@ -2,8 +2,8 @@
 layout:      post
 date:        2019-02-19 05:00:00 +0200
 title:       "React Router + Connected Component"
-tags:        [ react, redux, javascript ]
-comments:    true
+tags:        technology, react, redux, javascript
+lang:        en
 description: >
     A tip on how to fix issue when using connected React Router v4 and Redux in React
 ---

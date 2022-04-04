@@ -2,8 +2,8 @@
 layout:      post
 date:        2018-04-01 10:40:37 +0300
 title:       "Open RSS Reader"
-tags:        [ products, project, rss, software, open source ]
-comments:    true
+tags:        technology, products, project, rss, software, open source
+lang:        en
 description: >
     I'm starting a new open-source project "Open RSS Reader" that will be
     modular app so if you don't like the existing clients, you'll be able to

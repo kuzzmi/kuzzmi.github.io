@@ -2,8 +2,8 @@
 layout:      post
 date:        2016-03-07 14:16:31 +0200
 title:       "Deferred Messaging Using localStorage"
-tags:        [ javascript, html, tips ]
-comments:    true
+tags:        technology, javascript, html, tips
+lang:        en
 description: >
     In this post I will describe the way how I have solved a tricky problem
     to broadcast deferred messages to unknown iframes from parent window on

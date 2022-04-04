@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import yaml from "yaml";
 import styles from "../styles/Home.module.css";
 import fs from "fs";
 import { Converter, Metadata } from "showdown";
@@ -23,7 +24,7 @@ export default function Home({ posts }) {
         {posts.map((p) => (
           <Link key={p.slug} href={`/${p.slug}`}>
             <a>
-              {p.type === "post" ? "📝" : "🎙️"}
+              {p.layout === "post" ? "📝" : "🎙️"}
               {p.title}
             </a>
           </Link>
@@ -37,18 +38,19 @@ export default function Home({ posts }) {
 
 export function getStaticProps() {
   const files = fs.readdirSync("posts");
-  const posts = files.map((file) => {
+  const posts = files.reverse().map((file) => {
     const post = file.slice(0, file.indexOf(".md"));
     const slug = post.slice(4);
     const content = fs.readFileSync(`posts/${post}.md`, "utf8");
     const converter = new Converter({ metadata: true });
     converter.makeHtml(content);
-    const meta = converter.getMetadata() as Metadata;
+    const metaRaw = converter.getMetadata(true) as string;
+    const meta = yaml.parse(metaRaw);
     console.log(meta);
     return {
       slug,
       title: meta.title,
-      type: meta.type,
+      layout: meta.layout,
       date: meta.date,
     };
   });

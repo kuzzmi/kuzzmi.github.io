@@ -2,8 +2,8 @@
 layout:      post
 date:        2016-01-22 09:28:06 +0200
 title:       "Heartbeat and Polling"
-tags:        [ javascript, tips, web development, patterns ]
-comments:    true
+tags:        technology, javascript, tips, web development, patterns
+lang:        en
 description: >
     Sometimes in your applications you want to track when the user's PC went 
     to sleep mode, so you can do some routine, such as reestablish the session,

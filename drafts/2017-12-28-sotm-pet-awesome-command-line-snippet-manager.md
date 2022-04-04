@@ -5,11 +5,7 @@ title:  "SotM: pet - Awesome Command-line Snippet Manager"
 name:   "pet"
 logo:   "https://github.com/knqyf263/pet/blob/master/doc/logo.png"
 link:   "https://github.com/knqyf263/pet"
-tags:
-    - productivity
-    - snippets
-    - cli
-    - software of the month
+tags:   technology, productivity, snippets, cli, software of the month
 comments:    true
 description: >
     `pet` is a simple command-line snippet manager. It allows you to write

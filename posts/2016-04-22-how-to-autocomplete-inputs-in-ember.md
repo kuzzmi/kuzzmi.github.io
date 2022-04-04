@@ -1,14 +1,13 @@
 ---
 layout:      post
 date:        2016-04-22 23:49:13 +0200
-title:       "How to: Autocomplete Inputs in Ember"
-tags:        [ ember, web development, javascript ]
-comments:    true
+title:       "How To: Autocomplete Inputs in Ember"
+tags:        technology, ember, web development, javascript
+lang:        en
 description: >
     In this tutorial we will go through several basic things
     about Ember and create a reusable autocomplete input for
     your Ember project
-comments:    true
 ---
 A form is still one the most frequently used layers between user’s and company’s goals. Almost every time when we need some input from user, we need to show him a form. And users hate forms, they don’t want to fill all these boring fields and to think a lot about what to put where and so on.
 
