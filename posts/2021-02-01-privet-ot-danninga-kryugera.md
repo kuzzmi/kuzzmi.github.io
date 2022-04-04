@@ -1,7 +1,9 @@
 ---
 title: Привет от Даннинга — Крюгера
 date: 28.02.2021, 18:08
-type: post
+layout: post
+lang: ua
+tags: philosophy
 ---
 
 ![](/img/posts/016/1.png "Эффект Даннинга - Крюгера на графике")

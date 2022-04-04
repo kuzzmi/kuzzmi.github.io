@@ -1,7 +1,9 @@
 ---
 title: Как быть непопулярным
 date: 21.02.2021, 17:17
-type: post
+layout: post
+lang: ua
+tags: philosophy
 ---
 
 ![](/img/posts/011/1.png)

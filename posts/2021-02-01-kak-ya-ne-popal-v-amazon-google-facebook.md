@@ -1,7 +1,9 @@
 ---
 title: Как я не попал в Amazon, Google и Facebook
 date: 04.02.2021, 09:00
-type: post
+layout: post
+lang: ua
+tags: philosophy
 ---
 
 Для многих юных и не только разработчиков попасть в FAANG (Facebook, Apple,

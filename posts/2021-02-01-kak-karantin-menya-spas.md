@@ -1,7 +1,9 @@
 ---
 title: Как карантин меня спас
 date: 28.01.2021 09:00
-type: post
+layout: post
+lang: ua
+tags: philosophy
 ---
 
 *Изначально, текст был опубликован здесь: <https://dou.ua/forums/topic/32643>*

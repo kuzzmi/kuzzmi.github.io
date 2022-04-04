@@ -1,7 +1,9 @@
 ---
 title: Как выжить спринтеру
 date: 28.02.2021, 18:08
-type: post
+layout: post
+lang: ua
+tags: philosophy
 ---
 
 ![](/img/posts/017/1.png)

@@ -1,7 +1,9 @@
 ---
 title: Как всё контролировать
 date: 05.02.2021, 14:33
-type: post
+layout: post
+lang: ua
+tags: philosophy
 ---
 
 **tl;dr:** Никак.

@@ -44,6 +44,7 @@ export function getStaticProps() {
     const converter = new Converter({ metadata: true });
     converter.makeHtml(content);
     const meta = converter.getMetadata() as Metadata;
+    console.log(meta);
     return {
       slug,
       title: meta.title,
@@ -51,7 +52,6 @@ export function getStaticProps() {
       date: meta.date,
     };
   });
-  console.log(posts);
   return {
     props: {
       posts,

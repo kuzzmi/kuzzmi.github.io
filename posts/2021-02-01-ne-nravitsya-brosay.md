@@ -1,7 +1,9 @@
 ---
 title: Не нравится — бросай
 date: 18.02.2021, 21:49
-type: post
+layout: post
+lang: ua
+tags: philosophy
 ---
 
 ![](/img/posts/010/1.png "Сизифов труд. Решил добавлять свои иллюстрации к

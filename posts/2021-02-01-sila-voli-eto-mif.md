@@ -1,7 +1,9 @@
 ---
 title: Сила воли — миф
 date: 28.02.2021, 18:08
-type: post
+layout: post
+lang: ua
+tags: philosophy
 ---
 
 ![](/img/posts/013/1.png)

@@ -1,7 +1,9 @@
 ---
 title: Как убить идею
 date: 1
-type: post
+layout: post
+lang: ua
+tags: philosophy
 ---
 
 **tl;dr**: Убить идею легко — достаточно просто всё усложнить. Поэтому не

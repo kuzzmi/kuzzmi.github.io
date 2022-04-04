@@ -1,7 +1,9 @@
 ---
 title: Как говорить о достижениях
 date: 24.02.2021, 10:00
-type: post
+layout: post
+lang: ua
+tags: philosophy
 ---
 
 ![](/img/posts/012/1.png)
