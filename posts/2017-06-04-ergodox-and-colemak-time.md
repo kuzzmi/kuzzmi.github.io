@@ -2,7 +2,10 @@
 layout:      post
 date:        2017-06-04 21:28:38 +0200
 title:       "ErgoDox and Colemak Time"
-tags:        technology, keyboards, development
+tags:
+    - technology
+    - keyboards
+    - development
 lang:        en
 description: >
     I've finally switched to ErgoDox and Colemak and would

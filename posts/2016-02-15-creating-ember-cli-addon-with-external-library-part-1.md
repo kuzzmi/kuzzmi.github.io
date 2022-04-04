@@ -2,7 +2,11 @@
 layout:      post
 date:        2016-02-15 16:50:36 +0200
 title:       "Creating Ember CLI Addon with External Library. Part 1"
-tags:        technology, ember, tutorial, javascript
+tags:
+    - technology
+    - ember
+    - tutorial
+    - javascript
 lang:        en
 description: >
     In this post I'll try to describe a step-by-step
@@ -144,7 +148,7 @@ Here's how the initializer will look like:
 // app/initializers/ember-cli-webfontloader.js
 // Let's keep our configuration in the main configuration file
 import Ember from 'ember';
-import ENV from '../config/environment'; 
+import ENV from '../config/environment';
 import WebFont from 'webfontloader';
 
 export function initialize() {
@@ -179,7 +183,7 @@ So now we need to install our addon to check how it's working:
 ember install ember-cli-webfontloader
 ```
 
-In order to check if our addon is working with a real app, Ember CLI creates a folder called `dummy` which is created specifically for that and is served, when we use `ember server` command. So running `install` command will install our addon to the dummy application. 
+In order to check if our addon is working with a real app, Ember CLI creates a folder called `dummy` which is created specifically for that and is served, when we use `ember server` command. So running `install` command will install our addon to the dummy application.
 
 After we configure our dummy app to use some font-families:
 
@@ -188,12 +192,12 @@ After we configure our dummy app to use some font-families:
 'use strict';
 
 module.exports = function() {
-    return { 
+    return {
         webFontConfig: {
             google: {
                 families: ['Roboto Mono']
             }
-        } 
+        }
     };
 };
 ```
@@ -222,7 +226,7 @@ So now you have already working addon, which can do something useful. In the nex
 * [WebFontLoader - GitHub][wfl]
 * [Ember CLI - Developing addons and blueprints](http://ember-cli.com/extending/#developing-addons-and-blueprints)
 * [Converting libraries to Ember CLI addons](https://gist.github.com/kristianmandrup/ae3174217f68a6a51ed5#file-converting-libraries-to-ember-cli-addons-md)
-* [Creating an Ember.js Addon With the Ember CLI](http://johnotander.com/ember/2014/12/14/creating-an-emberjs-addon-with-the-ember-cli/) 
+* [Creating an Ember.js Addon With the Ember CLI](http://johnotander.com/ember/2014/12/14/creating-an-emberjs-addon-with-the-ember-cli/)
 
 [jq]: http://jquery.com
 [post]: https://kuzzmi.com/blog/web-fonts-webfontloader-and-ember \"Web Fonts, WebFontLoader and Ember | Blog | Igor Kuzmenko\"

@@ -3,7 +3,10 @@ layout:      post
 date:        2016-01-18 22:53:59 +0200
 title:       "Towers of Hanoi"
 lang:        en
-tags:        technology, problems solving, javascript
+tags:
+    - technology
+    - problems solving
+    - javascript
 description: >
     Decided to post my implementation of solving Towers of Hanoi problem
 ---

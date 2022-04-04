@@ -2,7 +2,13 @@
 layout:      post
 date:        2016-03-12 22:47:01 +0200
 title:       "5 Good Reasons To Start Streaming Your Coding"
-tags:        technology, streaming, development, motivation, tips, livecoding
+tags:
+    - technology
+    - streaming
+    - development
+    - motivation
+    - tips
+    - livecoding
 lang:        en
 description: >
     Benefits I have found during my streaming "career" and how streaming

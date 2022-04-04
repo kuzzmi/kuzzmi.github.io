@@ -2,7 +2,13 @@
 layout:      post
 date:        2016-02-07 17:54:44 +0200
 title:       "Web Fonts, WebFontLoader and Ember"
-tags:        technology, javascript, tips, ember, fonts, web development
+tags:
+    - technology
+    - javascript
+    - tips
+    - ember
+    - fonts
+    - web development
 lang:        en
 description: >
     In this post I describe why it can be a good idea to

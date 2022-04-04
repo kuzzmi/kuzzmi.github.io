@@ -2,7 +2,12 @@
 layout:      post
 date:        2016-07-12 16:59:43 +0200
 title:       "No Numbers, Symbols First"
-tags:        technology, experiment, vim, productivity, keyboards
+tags:
+    - technology
+    - experiment
+    - vim
+    - productivity
+    - keyboards
 lang:        en
 description: >
     It's a time for a new experiment: I've decided to move all the numbers

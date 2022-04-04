@@ -2,7 +2,13 @@
 layout:      post
 date:        2018-04-01 10:40:37 +0300
 title:       "Open RSS Reader"
-tags:        technology, products, project, rss, software, open source
+tags:
+    - technology
+    - products
+    - project
+    - rss
+    - software
+    - open source
 lang:        en
 description: >
     I'm starting a new open-source project "Open RSS Reader" that will be

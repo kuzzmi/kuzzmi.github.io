@@ -2,10 +2,15 @@
 layout:      post
 date:        2016-01-22 09:28:06 +0200
 title:       "Heartbeat and Polling"
-tags:        technology, javascript, tips, web development, patterns
+tags:
+    - technology
+    - javascript
+    - tips
+    - web development
+    - patterns
 lang:        en
 description: >
-    Sometimes in your applications you want to track when the user's PC went 
+    Sometimes in your applications you want to track when the user's PC went
     to sleep mode, so you can do some routine, such as reestablish the session,
     or connection. Or your user just opened your app and is doing nothing,
     but you need to keep the session opened. So what can we do?
@@ -18,13 +23,13 @@ Heartbeat and polling are actually almost the same patterns, but I specifically 
 
 ## Polling
 
-This design pattern allows you to let server know that the browser is still opened, and to let your application know that there are no issues with the connection to the server. You can also use this to measure your connection, to track users' network performance and so on. 
+This design pattern allows you to let server know that the browser is still opened, and to let your application know that there are no issues with the connection to the server. You can also use this to measure your connection, to track users' network performance and so on.
 
 For example, you have an application, which has a server that ends inactive sessions *(this sounds obviously, but, yes, sometimes they may not do this...)*. Say that user wants to perform an action that requires him to be authenticated, but his session is invalidated already. In this case user will have errors, or another "please login" window, it depends on how you handle this kind of things.
 
-But we're handling the problem instead of solving it, right? Although sometimes it's enough, but when it comes to the questions of UX, you can find that it's easier to fix it. 
+But we're handling the problem instead of solving it, right? Although sometimes it's enough, but when it comes to the questions of UX, you can find that it's easier to fix it.
 
-So we need to let server know that "hey, we're still here", and let user know that "hey, Houston, we have a problem" and let application solve the issue. 
+So we need to let server know that "hey, we're still here", and let user know that "hey, Houston, we have a problem" and let application solve the issue.
 
 So the simpliest polling can be as easy as this code:
 
@@ -65,7 +70,7 @@ var intervalHeartbeat = function() {
 
     // here I check if the difference is more than
     // twenty minutes
-    if (offset > 20 * 60 * 1000) { 
+    if (offset > 20 * 60 * 1000) {
         window.location.reload(true);
     }
 };

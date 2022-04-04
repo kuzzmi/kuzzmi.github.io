@@ -2,7 +2,12 @@
 layout:      post
 date:        2016-02-08 11:15:51 +0200
 title:       "Flexbox and Relative Sizes"
-tags:        technology, html, css, web development, tips
+tags:
+    - technology
+    - html
+    - css
+    - web development
+    - tips
 lang:        en
 description: >
     How to implement the layout that utilizes both flexbox and relative

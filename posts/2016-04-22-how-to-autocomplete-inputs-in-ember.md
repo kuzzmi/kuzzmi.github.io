@@ -2,7 +2,11 @@
 layout:      post
 date:        2016-04-22 23:49:13 +0200
 title:       "How To: Autocomplete Inputs in Ember"
-tags:        technology, ember, web development, javascript
+tags:
+    - technology
+    - ember
+    - web development
+    - javascript
 lang:        en
 description: >
     In this tutorial we will go through several basic things

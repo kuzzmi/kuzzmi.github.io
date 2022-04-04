@@ -2,7 +2,11 @@
 layout:      post
 date:        2016-02-20 13:58:16 +0200
 title:       "Creating Ember CLI Addon with External Library. Part 2"
-tags:        technology, ember, javascript, tutorial
+tags:
+    - technology
+    - ember
+    - javascript
+    - tutorial
 lang:        en
 description: >
     In this post we will finish development of ember-cli-webfontloader
@@ -10,7 +14,7 @@ description: >
     addon development, so you can gain some experience of solving those
     by reading.
 ---
-In my [previous post][p] I covered basics about how to wrap the third-party library in [Ember CLI][ecli] addon, so it can be reusable, and used in Ember-way. 
+In my [previous post][p] I covered basics about how to wrap the third-party library in [Ember CLI][ecli] addon, so it can be reusable, and used in Ember-way.
 
 **Note**: This article will cover only a few issues that you might face during addon development, so I wouldn't say that it's a tutorial.
 
@@ -22,11 +26,11 @@ In this part I will try to finish the [ember-cli-webfontloader][ecw] addon by do
 
 After reading the [WebFontLoader][wfl] docs, I found that they are using probably the strangest event system you can find out there. The problem is that you need to use either a global variable or you need to pass configuration directly to `.load()` function which we use to load fonts.
 
-In our case, we want the configuration to contain only the fonts we want to load, so we need to find a way of having something more flexible. 
+In our case, we want the configuration to contain only the fonts we want to load, so we need to find a way of having something more flexible.
 
 My first idea was to create a service that will attach its generic functions to configuration object, which will call our "real" event callbacks on event. But unfortunately this idea failed after a few atempts as I couldn't find a way of injecting a service to initializer, so I decided to go a bit lame way, I decided to extend `WebFont` object.
 
-We need to track somehow the state of WebFontLoader, add event handlers and if the event is already active (such as `active`, `loading` etc.) we need to be able to run the callback immediately. I will implement two functions: `on(string event, function callback, boolean runIfActive)` and `off(string event, function callback)`. 
+We need to track somehow the state of WebFontLoader, add event handlers and if the event is already active (such as `active`, `loading` etc.) we need to be able to run the callback immediately. I will implement two functions: `on(string event, function callback, boolean runIfActive)` and `off(string event, function callback)`.
 
 Idea is such that `on()` function will add callbacks to the list and when an event is fired, the main event handler will execute all callbacks from the appropriate list.
 
@@ -39,7 +43,7 @@ The full list of events is:
 * fontactive
 * fontinactive
 
-Here I will focus on covering the first three events: loading, active, inactive. 
+Here I will focus on covering the first three events: loading, active, inactive.
 
 ## Solution
 
@@ -93,7 +97,7 @@ And let's define our `on()` function directly on the `WebFont` object so in can 
 // ember-cli-webfontloader/app/initializers/ember-cli-webfontloader.js
 export function initialize(...) {
   ...
-  // Adds a callback to the eventHandlers[event] list and 
+  // Adds a callback to the eventHandlers[event] list and
   // if "toRun" is true and the current state is event name,
   // we need to run callback function after we add it to the list
   WebFont.on = (event, callback, toRun) => {
@@ -169,13 +173,13 @@ export default function setupWebFont(config) {
     let events = {
         ...
     };
-    
+
     // Setting up our functions
     config.loading      = events.onLoading;
     config.active       = events.onActive;
     config.inactive     = events.onInactive;
     config.fontloading  = events.onFontloading;
-    config.fontactive   = events.onFontactive;    
+    config.fontactive   = events.onFontactive;
     config.fontinactive = events.onFontinactive;
 
     // Load with an updated configuration
@@ -188,9 +192,9 @@ After doing that we still need to export an initializer to `app` namespace, but 
 ```
 // app/initializers/ember-cli-webfontloader.js
 import Ember from 'ember';
-import ENV from '../config/environment'; 
+import ENV from '../config/environment';
 import setupWebFont from 'ember-cli-webfontloader/initializers/ember-cli-webfontloader';
-export default { 
+export default {
     name: 'ember-cli-webfontloader',
     initialize() {
         const config = Ember.get(ENV, 'webFontConfig') || {};

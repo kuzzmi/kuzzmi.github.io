@@ -2,7 +2,11 @@
 layout:      post
 date:        2016-01-20 18:10:13 +0200
 title:       "Coding Challenges for Javascript Developers"
-tags:        technology, problems solving, javascript, tips
+tags:
+    - technology
+    - problems solving
+    - javascript
+    - tips
 lang:        en
 description: >
     The list of competitive programming sites that allow you to use JavaScript

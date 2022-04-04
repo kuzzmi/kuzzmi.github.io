@@ -2,7 +2,13 @@
 layout:      post
 date:        2017-01-20 15:01:39 +0200
 title:       "Perfectionist Tips: Plan and Prioritize"
-tags:        technology, productivity, psychology, perfectionist tip, products, startup
+tags:
+    - technology
+    - productivity
+    - psychology
+    - perfectionist tip
+    - products
+    - startup
 lang:        en
 description: >
     "Perfectionist Tips" is a series of short stories and notes

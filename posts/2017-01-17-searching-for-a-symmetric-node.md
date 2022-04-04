@@ -2,7 +2,11 @@
 layout:      post
 date:        2017-01-17 20:15:42 +0200
 title:       "Searching for a Symmetric Node"
-tags:        technology, problems solving, html, javascript
+tags:
+    - technology
+    - problems solving
+    - html
+    - javascript
 lang:        en
 description: >
     After a while decided to post some more problem solutions. The first

@@ -2,7 +2,11 @@
 layout:      post
 date:        2016-03-26 18:36:22 +0200
 title:       "Animating Path's Transparency"
-tags:        technology, android, development, animation
+tags:
+    - technology
+    - android
+    - development
+    - animation
 lang:        en
 description: >
     A small example of implemetating a Path transparency animation with ObjectAnimator

@@ -3,7 +3,10 @@ layout:      post
 date:        2016-01-18 21:09:43 +0200
 title:       "Group rotationally equivalent strings"
 lang:        en
-tags:        technology, problems solving, javascript
+tags:
+    - technology
+    - problems solving
+    - javascript
 description: >
     Found a problem about grouping together rotationally
     equivalent words from a given array of words

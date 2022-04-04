@@ -2,7 +2,10 @@
 layout:      post
 date:        2016-01-19 00:38:39 +0200
 title:       "Getting a Powerset"
-tags:        technology, problems solving, javascript
+tags:
+    - technology
+    - problems solving
+    - javascript
 lang:        en
 description: >
     How to get a powerset of a set? With ease.

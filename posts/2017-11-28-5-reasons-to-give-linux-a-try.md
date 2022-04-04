@@ -2,7 +2,11 @@
 layout:      post
 date:        2017-11-28 00:36:36 +0200
 title:       "5 Reasons To Give Linux A Try"
-tags:        technology, linux, software, os
+tags:
+    - technology
+    - linux
+    - software
+    - os
 lang:        en
 image:       /assets/img/5-reasons-to-give-linux-a-try.png
 description: >
@@ -39,11 +43,12 @@ and download it for free.
 > Two cowboys in the saloon are drinking whiskey. One of them is local, another
 one is his friend from another city. Suddenly a man breaks in, starts shooting
 and shouting very loudly and leaves. Nobody reacts.
-> -- Billy?  
-> -- Yes, Harry?  
-> -- What was that?  
-> -- That was Slippery Joe, Harry.  
-> -- Does it mean nobody is able to catch him?  
+>
+> -- Billy?
+> -- Yes, Harry?
+> -- What was that?
+> -- That was Slippery Joe, Harry.
+> -- Does it mean nobody is able to catch him?
 > -- No, Harry. That's because nobody wants to.
 >
 > _A joke_
