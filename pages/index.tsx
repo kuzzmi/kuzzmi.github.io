@@ -39,13 +39,21 @@ export default function Home({ posts }) {
               {p.tags.map((t) => (
                 <Link href={`/${p.slug}`} key={t}>
                   <a className={styles.tag}>
-                    <i>{t}</i>
+                    <small>
+                      <i>{t}</i>
+                    </small>
                   </a>
                 </Link>
               ))}
             </p>
-            <p className={styles.description}>{p.description}</p>
-            <Link href={`/${p.slug}`}>Read →</Link>
+            <p className={styles.description}>
+              <small>{p.description}</small>
+            </p>
+            <Link href={`/${p.slug}`}>
+              <a>
+                <small>Read →</small>
+              </a>
+            </Link>
           </div>
         ))}
       </div>

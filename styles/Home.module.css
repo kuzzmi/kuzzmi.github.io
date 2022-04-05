@@ -33,13 +33,12 @@
 
 .post h2 {
   margin: 0;
+  display: inline-block;
 }
 
 .post .tag {
   color: var(--color-link);
-  text-decoration: none;
   margin-right: var(--spacing-2);
-  font-size: 0.8rem;
 }
 
 .post .description {
