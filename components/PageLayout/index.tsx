@@ -25,6 +25,12 @@ const MenuLink: React.FC<{
   );
 };
 
+/*
+    <MenuLink href="/podcast">{tr("menu.podcast")}</MenuLink>
+    <MenuLink href="/projects">{tr("menu.projects")}</MenuLink>
+    <MenuLink href="/about">{tr("menu.about")}</MenuLink>
+ */
+
 const PageLayout: React.FC = ({ children }) => {
   const { t: tr } = useTranslation();
   const router = useRouter();
@@ -44,9 +50,6 @@ const PageLayout: React.FC = ({ children }) => {
           </MenuLink>
           <MenuLink href="/blog">{tr("menu.blog")}</MenuLink>
           <MenuLink href="/thoughts">{tr("menu.thoughts")}</MenuLink>
-          <MenuLink href="/podcast">{tr("menu.podcast")}</MenuLink>
-          <MenuLink href="/projects">{tr("menu.projects")}</MenuLink>
-          <MenuLink href="/about">{tr("menu.about")}</MenuLink>
         </ul>
       </menu>
       <section className={styles.content_container}>
@@ -63,9 +66,9 @@ const PageLayout: React.FC = ({ children }) => {
                 <path
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                   d="M3 12L21 12M3 6L21 6M3 18L21 18"
                 />
               </svg>

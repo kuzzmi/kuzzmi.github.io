@@ -3,19 +3,10 @@ import { GetStaticPropsContext } from "next";
 import fs from "fs";
 import { getI18nProps } from "../../../lib/getStatic";
 import { getArticle, getSlugFromFilename } from "../../../lib/articles";
-import PageLayout from "../../../components/PageLayout";
-import styles from "../../../styles/Post.module.css";
+import ArticleLayout from "@/components/ArticleLayout";
 
 export default function Post({ post }) {
-  return (
-    <PageLayout>
-      <div className={styles.container}>
-        <h1>{post.meta.title}</h1>
-        <p className={styles.date}>{post.meta.date}</p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      </div>
-    </PageLayout>
-  );
+  return <ArticleLayout article={post} />;
 }
 
 export async function getStaticProps(ctx: GetStaticPropsContext) {

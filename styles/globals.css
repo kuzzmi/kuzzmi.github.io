@@ -77,3 +77,12 @@ h5 {
 h1 {
   font-size: 36px;
 }
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin: var(--spacing-5) 0;
+  overflow: hidden;
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+}

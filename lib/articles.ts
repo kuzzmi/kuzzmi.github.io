@@ -34,6 +34,40 @@ export const getArticles = (root: "thoughts" | "blog") => {
   return articles;
 };
 
+export const getArticleSlugs = (root: "thoughts" | "blog") => {
+  const files = fs.readdirSync(`articles/${root}`);
+  const slugs = files.reverse().map((file) => {
+    return { params: { slug: getSlugFromFilename(file) } };
+  });
+
+  return {
+    paths: slugs,
+    fallback: false,
+  };
+};
+
+export const getArticleSlugsWithLocale = (root: "thoughts" | "blog") => {
+  const files = fs.readdirSync(`articles/${root}`);
+  const slugs = files.reverse().map((file) => {
+    return getSlugFromFilename(file);
+  });
+  const localePaths = ["en", "ua"]
+    .map((locale) => {
+      return slugs.map((slug) => ({
+        params: {
+          locale,
+          slug,
+        },
+      }));
+    })
+    .flat();
+
+  return {
+    paths: localePaths,
+    fallback: false,
+  };
+};
+
 export const getArticle = (root: "thoughts" | "blog", slug: string) => {
   const files = fs.readdirSync(`articles/${root}`);
   const [file] = files.reverse().filter((file) => {

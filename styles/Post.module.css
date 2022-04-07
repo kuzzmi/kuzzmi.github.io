@@ -1,4 +1,6 @@
-.container p {
+.container p,
+.container ol,
+.container ul {
   margin-bottom: var(--spacing-4);
   letter-spacing: 1px;
   line-height: 1.5rem;
@@ -24,6 +26,15 @@
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   margin-bottom: var(--spacing-4);
+}
+
+.footer {
+  background-color: #f1f8e9;
+  padding: 30px 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: calc(2 * var(--spacing-4));
 }
 
 .container blockquote p {
