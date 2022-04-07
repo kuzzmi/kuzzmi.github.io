@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
-import Link from "../components/Link";
-import LangSwitchLink from "../components/LangSwitchLink";
-import styles from "../styles/PageLayout.module.css";
+import Link from "@/components/Link";
+import LangSwitchLink from "@/components/LangSwitchLink";
+import styles from "./index.module.css";
 
 const MenuLink: React.FC<{
   href: string;
