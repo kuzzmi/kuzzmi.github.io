@@ -8,8 +8,10 @@
   --color-link: #607d8b;
   --color-label: #c4c4c4;
 
+  --spacing-1: 5px;
   --spacing-2: 10px;
   --spacing-3: 16px;
+  --spacing-4: 24px;
   --spacing-5: 48px;
 }
 
@@ -39,6 +41,25 @@ a:hover {
 p {
   margin: 0;
   padding: 0;
+}
+
+pre {
+  letter-spacing: 0px;
+  font-size: 0.9rem;
+  font-family: JetBrains Mono, Inconsolata, monospace;
+  margin-bottom: var(--spacing-5);
+}
+
+pre code {
+  border-radius: 10px;
+}
+
+code {
+  background-color: #2b2b2b;
+  font-size: 0.8rem;
+  padding: 2px 5px;
+  color: #e6e1dc;
+  border-radius: 3px;
 }
 
 * {

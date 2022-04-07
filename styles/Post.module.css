@@ -1,0 +1,44 @@
+.container p {
+  margin-bottom: var(--spacing-4);
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
+
+.container img,
+.container iframe {
+  max-width: calc(var(--content-width) - var(--spacing-5) * 2);
+  border-radius: 10px;
+  margin-top: var(--spacing-4);
+  margin-bottom: var(--spacing-4);
+}
+
+.container p:first-child img {
+  margin-top: 0;
+}
+
+.container blockquote {
+  background-color: #f8f8f8;
+  border-left: 4px solid;
+  margin: 0;
+  padding: 30px 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: var(--spacing-4);
+}
+
+.container blockquote p {
+  margin-bottom: 0;
+}
+
+.date {
+  margin-top: calc(-1.5 * var(--spacing-4));
+  color: var(--color-label);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 600px) {
+  .container img {
+    max-width: 100%;
+  }
+}

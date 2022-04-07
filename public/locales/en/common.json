@@ -1,0 +1,32 @@
+{
+  "common": {
+    "name": "Igor Kuzmenko",
+    "version": "version"
+  },
+  "menu": {
+    "home": "Home",
+    "blog": "Tech articles",
+    "thoughts": "Thoughts",
+    "podcast": "Podcast",
+    "projects": "Projects",
+    "about": "About me"
+  },
+  "home": {
+    "bio": "developer and tech entrepreneur",
+    "read": "Read",
+    "recents": "Recent publications",
+    "description": {
+      "part_1": "Here I publish ",
+      "part_2": "my thoughts",
+      "part_3": " and ",
+      "part_4": " tech articles",
+      "part_5": ". Avid Linux and vim user. Co-founder at "
+    }
+  },
+  "blog": {
+    "description": "Different findings in the tech world that I want to share with world."
+  },
+  "thoughts": {
+    "description": "My thoughts about life and work."
+  }
+}

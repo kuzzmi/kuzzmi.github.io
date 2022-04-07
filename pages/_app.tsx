@@ -1,12 +1,9 @@
+import { appWithTranslation } from "next-i18next";
+
 import "../styles/globals.css";
-import PageLayout from "../components/PageLayout";
 
 function MyApp({ Component, pageProps }) {
-  return (
-    <PageLayout>
-      <Component {...pageProps} />
-    </PageLayout>
-  );
+  return <Component {...pageProps} />;
 }
 
-export default MyApp;
+export default appWithTranslation(MyApp);

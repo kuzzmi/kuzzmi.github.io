@@ -4,16 +4,19 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3000",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@types/showdown": "^1.9.4",
     "next": "12.1.4",
+    "next-i18next": "^11.0.0",
+    "next-language-detector": "^1.0.2",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "showdown": "^2.0.3",
+    "showdown-highlight": "^3.0.0",
     "yaml": "^1.10.2"
   },
   "devDependencies": {
