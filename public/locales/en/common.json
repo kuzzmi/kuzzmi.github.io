@@ -13,6 +13,9 @@
     "about": "About me"
   },
   "home": {
+    "meta": {
+      "description": "Home page of Igor Kuzmenko"
+    },
     "bio": "developer and tech entrepreneur",
     "read": "Read",
     "recents": "Recent publications",

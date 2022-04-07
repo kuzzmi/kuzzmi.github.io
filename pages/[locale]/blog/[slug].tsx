@@ -1,12 +1,43 @@
 import React from "react";
+import { NextSeo } from "next-seo";
 import { GetStaticPropsContext } from "next";
 import fs from "fs";
 import { getI18nProps } from "../../../lib/getStatic";
 import { getArticle, getSlugFromFilename } from "../../../lib/articles";
 import ArticleLayout from "@/components/ArticleLayout";
+import { useTranslation } from "next-i18next";
+import { useRouter } from "next/router";
 
 export default function Post({ post }) {
-  return <ArticleLayout article={post} />;
+  const { t: tr } = useTranslation();
+  const router = useRouter();
+  return (
+    <>
+      <NextSeo
+        title={`${post.meta.title} | ${tr("menu.blog")} | ${tr("common.name")}`}
+        description={post.description}
+        canonical={`https://kuzzmi.com${router.asPath}`}
+        openGraph={{
+          title: post.meta.title,
+          description: post.meta.description,
+          url: `https://kuzzmi.com${router.asPath}`,
+          type: "article",
+          article: {
+            publishedTime: post.meta.date,
+            authors: ["https://kuzzmi.com"],
+            tags: post.meta.tags,
+          },
+          // TODO: add generated images here
+          images: [],
+        }}
+        twitter={{
+          handle: "@kuzzmi",
+          cardType: "summary_large_image",
+        }}
+      />
+      <ArticleLayout article={post} />
+    </>
+  );
 }
 
 export async function getStaticProps(ctx: GetStaticPropsContext) {

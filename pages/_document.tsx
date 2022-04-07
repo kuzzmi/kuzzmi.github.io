@@ -51,6 +51,7 @@ export default class FundofDocument extends Document {
             href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/base16/railscasts.min.css"
           />
           <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+          <meta name="author" content="Igor Kuzmenko" />
         </Head>
         <body>
           <Main />
