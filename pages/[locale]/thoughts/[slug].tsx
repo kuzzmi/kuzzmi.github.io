@@ -9,7 +9,7 @@ import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 
 export default function Post({ post }) {
-  const { t: tr } = useTranslation();
+  const { t: tr, i18n } = useTranslation();
   const router = useRouter();
   return (
     <>
@@ -35,7 +35,7 @@ export default function Post({ post }) {
           cardType: "summary_large_image",
         }}
       />
-      <ArticleLayout article={post} />
+      <ArticleLayout article={post} locale={i18n.language} />
     </>
   );
 }

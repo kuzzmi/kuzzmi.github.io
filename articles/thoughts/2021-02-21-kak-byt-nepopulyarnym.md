@@ -1,9 +1,14 @@
 ---
-title: Как быть непопулярным
-date: 21.02.2021, 17:17
-layout: post
-lang: ua
-tags: philosophy
+title:       Як бути непопулярним
+date:        2021-02-21T17:17:00Z
+layout:      post
+lang:        ua
+tags:
+    - philosophy
+    - psychology
+description: >
+    Мій досвід прийняття факту, що я, скоріш за все, ніколи
+    не буду популярним.
 ---
 
 ![](/img/posts/011/1.png)

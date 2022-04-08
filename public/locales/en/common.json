@@ -2,7 +2,8 @@
   "common": {
     "name": "Igor Kuzmenko",
     "version": "version",
-    "articleFooter": "If you enjoyed the reading, you can tip me <a href=\"https://fundof.me/kuzzmi?tip\" target=\"_blank\" rel=\"noreferrer\">here</a> 😉"
+    "articleFooter": "If you enjoyed the reading, you can tip me <a href=\"https://fundof.me/kuzzmi?tip\" target=\"_blank\" rel=\"noreferrer\">here</a> 😉",
+    "articleNotAvailable": "This content is available only in Ukrainian."
   },
   "menu": {
     "home": "Home",
@@ -31,6 +32,6 @@
     "description": "Different findings in the tech world that I want to share with world."
   },
   "thoughts": {
-    "description": "My thoughts about life and work."
+    "description": "My thoughts about life and work in Ukrainian."
   }
 }

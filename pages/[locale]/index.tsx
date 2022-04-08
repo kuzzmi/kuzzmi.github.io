@@ -15,7 +15,7 @@ export default function Home(props) {
 
   const lang = i18n.language;
 
-  const articlesType = lang === "ua" ? "blog" : "thoughts";
+  const articlesType = lang === "en" ? "blog" : "thoughts";
   const posts = props[articlesType];
 
   return (

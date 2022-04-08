@@ -6,6 +6,7 @@ import Link from "next/link";
 interface Props {
   locale: "ua" | "en";
   href?: string;
+  className?: string;
 }
 
 const LanguageSwitchLink: React.FC<Props> = ({ locale, ...rest }) => {
@@ -26,7 +27,10 @@ const LanguageSwitchLink: React.FC<Props> = ({ locale, ...rest }) => {
 
   return (
     <Link href={href}>
-      <a onClick={() => languageDetector.cache(locale)}>
+      <a
+        className={rest.className}
+        onClick={() => languageDetector.cache(locale)}
+      >
         {locale === "ua" ? "🇺🇦" : "🇬🇧"}
       </a>
     </Link>

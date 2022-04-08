@@ -1,9 +1,14 @@
 ---
-title: Как выжить спринтеру
-date: 28.02.2021, 18:08
-layout: post
-lang: ua
-tags: philosophy
+title:       Як вижити спринтеру
+date:        2021-03-18T18:08:00Z
+layout:      post
+lang:        ua
+tags:
+    - philosophy
+    - psychology
+description: >
+    Аналіз того, що робити людям, котрі не можуть займатися
+    однією справою довгу. Як вижити в цьому світі таким людям?
 ---
 
 ![](/img/posts/017/1.png)

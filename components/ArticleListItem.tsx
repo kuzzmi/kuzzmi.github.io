@@ -19,7 +19,7 @@ const ArticleListItem = ({
           <Link href={`/${type}/${slug}`} key={t}>
             <a className={styles.tag}>
               <small>
-                <i>{t}</i>
+                <i>{tr(`tags.${t}`, t)}</i>
               </small>
             </a>
           </Link>

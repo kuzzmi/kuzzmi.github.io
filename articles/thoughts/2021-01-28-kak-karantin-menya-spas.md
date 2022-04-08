@@ -1,9 +1,14 @@
 ---
-title: Как карантин меня спас
-date: 28.01.2021 09:00
-layout: post
-lang: ua
-tags: philosophy
+title:       Як карантин мене врятував
+date:        2021-01-28T09:00:00Z
+layout:      post
+lang:        ua
+tags:
+    - story
+    - burn out
+    - work
+description: >
+    Історія про те, як пандемія врятувала мене від з'їзду з глузду.
 ---
 
 *Изначально, текст был опубликован здесь: <https://dou.ua/forums/topic/32643>*

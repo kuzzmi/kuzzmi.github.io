@@ -1,9 +1,13 @@
 ---
-title: Как я не попал в Amazon, Google и Facebook
-date: 04.02.2021, 09:00
-layout: post
-lang: ua
-tags: philosophy
+title:       Як я не потрапив в FAANG
+date:        2021-02-04T09:00:00Z
+layout:      post
+lang:        ua
+tags:
+    - story
+    - career
+description: >
+    Мій досвід проходження інтерв'ю в Amazon, Google і Facebook.
 ---
 
 Для многих юных и не только разработчиков попасть в FAANG (Facebook, Apple,

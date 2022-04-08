@@ -1,9 +1,13 @@
 ---
-title: Как убить идею
-date: 1
-layout: post
-lang: ua
-tags: philosophy
+title:       Як вбити ідею
+date:        2021-02-01T13:35:00Z
+layout:      post
+lang:        ua
+tags:
+    - bad advice
+    - philosophy
+description: >
+    Персональний рецепт, як унеможливити досягнення мети.
 ---
 
 **tl;dr**: Убить идею легко — достаточно просто всё усложнить. Поэтому не

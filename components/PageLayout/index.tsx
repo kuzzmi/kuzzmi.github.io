@@ -32,12 +32,14 @@ const MenuLink: React.FC<{
  */
 
 const PageLayout: React.FC = ({ children }) => {
-  const { t: tr } = useTranslation();
+  const { t: tr, i18n } = useTranslation();
   const router = useRouter();
 
   const isHome = router.pathname === "/";
 
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const locale = router.query.locale as string;
 
   return (
     <main
@@ -78,8 +80,14 @@ const PageLayout: React.FC = ({ children }) => {
           <div className={styles.lang_switcher}>
             <p className={styles.version}>{tr("common.version")}:</p>
             <div className={styles.langs}>
-              <LangSwitchLink locale="ua" />
-              <LangSwitchLink locale="en" />
+              <LangSwitchLink
+                className={locale === "ua" ? styles.active : ""}
+                locale="ua"
+              />
+              <LangSwitchLink
+                className={locale === "en" ? styles.active : ""}
+                locale="en"
+              />
             </div>
           </div>
         </header>

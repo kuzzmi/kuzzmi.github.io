@@ -13,6 +13,7 @@ export const getSlugFromFilename = (fileName: string) => {
 
 export const getArticles = (root: "thoughts" | "blog") => {
   const files = fs.readdirSync(`articles/${root}`);
+  const allTags = [];
   const articles = files.reverse().map((file) => {
     const slug = getSlugFromFilename(file);
     const content = fs.readFileSync(`articles/${root}/${file}`, "utf8");
@@ -20,16 +21,24 @@ export const getArticles = (root: "thoughts" | "blog") => {
     converter.makeHtml(content);
     const metaRaw = converter.getMetadata(true) as string;
     const meta = yaml.parse(metaRaw);
+    const tags = Array.isArray(meta.tags) ? meta.tags : [meta.tags];
+    tags.forEach((t) => {
+      if (!allTags.includes(t)) {
+        allTags.push(t);
+      }
+    });
     return {
       slug,
       type: root,
       title: meta.title,
       layout: meta.layout,
       description: meta.description || "",
-      tags: Array.isArray(meta.tags) ? meta.tags : [meta.tags],
+      tags,
       date: meta.date,
     };
   });
+
+  // console.log(allTags);
 
   return articles;
 };
@@ -95,6 +104,7 @@ export const getArticle = (root: "thoughts" | "blog", slug: string) => {
         slug,
         title: meta.title,
         layout: meta.layout,
+        lang: meta.lang,
         description: meta.description || "",
         tags: Array.isArray(meta.tags) ? meta.tags : [meta.tags],
         date: meta.date,

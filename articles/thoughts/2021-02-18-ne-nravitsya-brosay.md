@@ -1,9 +1,13 @@
 ---
-title: Не нравится — бросай
-date: 18.02.2021, 21:49
-layout: post
-lang: ua
-tags: philosophy
+title:       Не подобається — облиш
+date:        2021-02-18T21:49:00Z
+layout:      post
+lang:        ua
+tags:
+    - psychology
+description: >
+    Думки про те, чому потрібно не доводити до кінця усе, що
+    починаєш.
 ---
 
 ![](/img/posts/010/1.png "Сизифов труд. Решил добавлять свои иллюстрации к

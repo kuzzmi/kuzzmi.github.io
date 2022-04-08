@@ -1,9 +1,12 @@
 ---
-title: Как всё контролировать
-date: 05.02.2021, 14:33
-layout: post
-lang: ua
-tags: philosophy
+title:       Як все контролювати
+date:        2021-02-05T14:33:00Z
+layout:      post
+lang:        ua
+tags:        
+    - philosophy
+description: >
+    Історія про те, як контролювати навколишній світ
 ---
 
 **tl;dr:** Никак.
