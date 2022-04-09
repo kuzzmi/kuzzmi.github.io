@@ -213,7 +213,7 @@ If you have any comments and/or found some lame mistakes here, please let [me kn
 * [ember-cli-webfontloader - GitHub][ecw] (here you can find sources of the plugin)
 * [WebFontLoader - GitHub][wfl]
 
-[p]: https://kuzzmi.com/blog/creating-ember-cli-addon-with-external-library-part-2
+[p]: /blog/creating-ember-cli-addon-with-external-library-part-2
 [wfl]: https://github.com/typekit/webfontloader
 [ecw]: https://github.com/kuzzmi/ember-cli-webfontloader
 [ecli]: http://www.ember-cli.com

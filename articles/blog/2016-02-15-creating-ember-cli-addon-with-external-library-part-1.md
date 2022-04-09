@@ -229,7 +229,7 @@ So now you have already working addon, which can do something useful. In the nex
 * [Creating an Ember.js Addon With the Ember CLI](http://johnotander.com/ember/2014/12/14/creating-an-emberjs-addon-with-the-ember-cli/)
 
 [jq]: http://jquery.com
-[post]: https://kuzzmi.com/blog/web-fonts-webfontloader-and-ember
+[post]: /blog/web-fonts-webfontloader-and-ember
 [wfl]: https://github.com/typekit/webfontloader
 [ecli]: http://ember-cli.com
 [e]: http://emberjs.org
