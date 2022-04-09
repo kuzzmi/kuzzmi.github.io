@@ -7,9 +7,11 @@ export const useRedirect = (to?: string) => {
   const router = useRouter();
   to = to || router.asPath;
 
+  const detectedLng = languageDetector.detect();
+  const finalUrl = "/" + detectedLng + to;
+
   // language detection
   useEffect(() => {
-    const detectedLng = languageDetector.detect();
     if (to.startsWith("/" + detectedLng) && router.route === "/404") {
       // prevent endless loop
       router.replace("/" + detectedLng + router.route);
@@ -17,13 +19,15 @@ export const useRedirect = (to?: string) => {
     }
 
     languageDetector.cache(detectedLng);
-    router.replace("/" + detectedLng + to);
-  });
+    router.replace(finalUrl);
+  }, []);
+
+  console.log(finalUrl, to);
 
   return (
     <>
       <Head>
-        <meta http-equiv="refresh" content={`2; url = ${to}`} />
+        <meta http-equiv="refresh" content={`1; url = ${finalUrl}`} />
       </Head>
     </>
   );
@@ -36,5 +40,6 @@ export const Redirect = () => {
 
 // eslint-disable-next-line react/display-name
 export const getRedirect = (to?: string) => () => {
-  return useRedirect(to);
+  useRedirect(to);
+  return <></>;
 };
