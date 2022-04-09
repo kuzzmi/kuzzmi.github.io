@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import languageDetector from "./languageDetector";
@@ -19,16 +20,20 @@ export const useRedirect = (to?: string) => {
     router.replace("/" + detectedLng + to);
   });
 
-  return <></>;
+  return (
+    <>
+      <Head>
+        <meta http-equiv="refresh" content={`2; url = ${to}`} />
+      </Head>
+    </>
+  );
 };
 
 export const Redirect = () => {
-  useRedirect();
-  return <></>;
+  return useRedirect();
 };
 
 // eslint-disable-next-line react/display-name
 export const getRedirect = (to?: string) => () => {
-  useRedirect(to);
-  return <></>;
+  return useRedirect(to);
 };
