@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build && next export",
+    "deploy": "gh-pages -d out",
     "start": "next start",
     "lint": "next lint"
   },
+  "homepage": "https://demo.kuzzmi.com",
   "dependencies": {
     "@types/showdown": "^1.9.4",
     "next": "12.1.4",
@@ -25,7 +27,9 @@
     "@types/react": "^17.0.43",
     "eslint": "8.12.0",
     "eslint-config-next": "12.1.4",
+    "gh-pages": "^3.2.3",
     "prettier": "^2.6.2",
+    "replace-in-file": "^6.3.2",
     "typescript": "^4.6.3"
   }
 }
