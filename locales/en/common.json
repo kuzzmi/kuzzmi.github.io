@@ -1,0 +1,37 @@
+{
+  "common": {
+    "name": "Igor Kuzmenko",
+    "version": "version",
+    "articleFooter": "If you enjoyed the reading, you can tip me <a href=\"https://fundof.me/kuzzmi?tip\" target=\"_blank\" rel=\"noreferrer\">here</a> 😉",
+    "articleNotAvailable": "This content is available only in Ukrainian."
+  },
+  "menu": {
+    "home": "Home",
+    "blog": "Tech articles",
+    "thoughts": "Thoughts",
+    "podcast": "Podcast",
+    "projects": "Projects",
+    "about": "About me"
+  },
+  "home": {
+    "meta": {
+      "description": "Home page of Igor Kuzmenko"
+    },
+    "bio": "developer and tech entrepreneur",
+    "read": "Read",
+    "recents": "Recent publications",
+    "description": {
+      "part_1": "Here I publish ",
+      "part_2": "my thoughts",
+      "part_3": " and ",
+      "part_4": " tech articles",
+      "part_5": ". Avid Linux and vim user. Co-founder at "
+    }
+  },
+  "blog": {
+    "description": "Different findings in the tech world that I want to share with world."
+  },
+  "thoughts": {
+    "description": "My thoughts about life and work in Ukrainian."
+  }
+}
