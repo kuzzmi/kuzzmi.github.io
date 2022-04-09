@@ -30,7 +30,8 @@ export const useRedirect = (to?: string) => {
 };
 
 export const Redirect = () => {
-  return useRedirect();
+  useRedirect();
+  return <></>;
 };
 
 // eslint-disable-next-line react/display-name

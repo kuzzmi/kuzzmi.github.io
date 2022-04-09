@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3000",
-    "build": "next build && next export",
-    "deploy": "gh-pages -d out",
+    "generate:files": "touch out/.nojekyll && echo demo.kuzzmi.com > out/CNAME",
+    "build": "rm -rf out && next build && next export && yarn generate:files",
+    "deploy": "gh-pages -b main -d out -t",
     "start": "next start",
     "lint": "next lint"
   },
