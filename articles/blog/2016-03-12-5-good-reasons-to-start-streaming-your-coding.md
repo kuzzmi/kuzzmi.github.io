@@ -21,11 +21,6 @@ Although I'm not the most frequent and regular streamer on the services like [Li
 
 *I was even [interviewed](http://blog.livecoding.tv/2015/09/28/lctvalerts-web-service-kuzzmi-javascript-switzerland/) there.*
 
-Me streaming on Livecoding.tv:
-
-![Me streaming on Livecoding.tv](/uploads/d6c504398cdf0abb1bf8df7195378d25)
-
-
 ## So here is why you should start streaming your coding:
 
 ### 1. You stay focused

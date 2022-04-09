@@ -86,5 +86,3 @@ group(["a", "b", "cdef", "wtf", "abcd"]);
 ```
 
 This will return us `[ ["a", "b"], ["cdef", "abcd"], [ "wtf" ] ]`. Done.
-
-I will appreciate any feedback, if someone finds more elegant solution for that, or finds any issues with what I've done.

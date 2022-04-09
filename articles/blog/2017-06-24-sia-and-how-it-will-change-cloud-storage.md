@@ -95,15 +95,6 @@ Sia has a publicly available [roadmap][4], which contains a lot of great feature
 
 There is a long way to go for Sia to get a fraction of the cloud storage market where Google and Amazon dominate, but each person that starts using Sia today influences how quickly this will happen.
 
----
-
-If you have any questions or other thoughts, make sure to leave them in the comments section below.
-
-_If you enjoyed this article, consider donating a coin ;)_
-
-BTC: 33kD8ksvpRHvtgupbKn7nR4wLSUwnWbhMj
-SC: d697b7825f5c290ee71fc2d567d9220f1a220bb2b67170bf96c5e9be09a38440e00fcd66598c
-
 [1]: http://sia.tech
 [2]: https://www.reddit.com/r/siacoin/
 [3]: https://obelisk.tech

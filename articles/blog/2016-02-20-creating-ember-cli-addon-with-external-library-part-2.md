@@ -207,7 +207,7 @@ Ok, that's it, we keep our _actual_ initializer in `addon/` folder and here we j
 
 Done.
 
-If you have any comments and/or found some lame mistakes here, please let me know in the comments section below.
+If you have any comments and/or found some lame mistakes here, please let [me know][twitter].
 
 ## Links
 * [ember-cli-webfontloader - GitHub][ecw] (here you can find sources of the plugin)
@@ -217,3 +217,4 @@ If you have any comments and/or found some lame mistakes here, please let me kno
 [wfl]: https://github.com/typekit/webfontloader
 [ecw]: https://github.com/kuzzmi/ember-cli-webfontloader
 [ecli]: http://www.ember-cli.com
+[twitter]: http://twitter.com/kuzzmi

@@ -82,4 +82,6 @@ That is it.
 
 This may or may not be the best solutions, but they are used and they help you to fix a bunch of possible issues.
 
-For curiosity's sake, how do you solve this problems?
+For curiosity's sake, how do you solve this problems? [Ping me on Twitter][twitter].
+
+[twitter]: http://twitter.com/kuzzmi

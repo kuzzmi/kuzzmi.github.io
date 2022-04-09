@@ -24,8 +24,6 @@ You may find these arguments controversial, but I hope you will find something u
 
 ## No Code Completion
 
-![](/uploads/cce11433e3e2636005ae9e3a8df9452c)
-
 When you use Vanilla JavaScript it's not that easy to have a good code completion. You can say that there are IDEs that are doing this more or less well, like [WebStorm](https://www.jetbrains.com/webstorm/). Or even [Visual Studio](https://www.visualstudio.com/) can do some kind of IntelliSense code completion, but it's not that good.
 
 But come on, **JavaScript is just a text file**. You may say "Evolution, ma-a-an!", but it doesn't change anything, it's still a text and it will be processed as a text. Current solutions of code completion for JavaScript are not _THAT_ good. However, [Tern.js](http://ternjs.net/) is doing great job. To be honest, I could never set it up properly. And no one of who I know. May be I have bad hands and too little patience, but anyway, this only tells about the complexity of setting up what you actually don't need.
@@ -70,10 +68,6 @@ The point here is not to make life harder, but easier. So it is definitely recom
 ## Instead of P.S.
 
 Almost a year ago I moved completely to [Vim][1]. I think at some point every and each developer gets to know about Vim. I've discovered it a long time ago, but I couldn't afford switching to such a radically different editor. I knew that this text editor was a Text Editor with a capital letter, so it took me at least 4 attempts to switch to it. And the forth attempt was successful. As expected my performance dropped down, but at the time of switch I could afford to do all the experiments safely.
-
-This is how it looks like now:
-
-![](/uploads/2121d1222784cdd551cd363e534d1e22)
 
 ## Your thoughts?
 

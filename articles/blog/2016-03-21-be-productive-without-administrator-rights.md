@@ -169,4 +169,6 @@ So now you have almost all cards in your hand, now you can make this world a bit
 
 This post is written mostly because I can forget these things as I do them pretty rarely (mostly when I switch laptops, or jobs), so I won't forget anything. But I could not write this just in my OneNote, this should be shared I think. This is why the list will be updated as soon as I have something to add/change.
 
-If you have any thoughts about all that stuff, or you think that I do something bad here, you have comments below.
+If you have any thoughts about all that stuff, or you think that I do something bad here, you can [ping me on Twitter][twitter].
+
+[twitter]: http://twitter.com/kuzzmi

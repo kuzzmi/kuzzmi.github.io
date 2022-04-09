@@ -16,7 +16,7 @@ description: >
 ---
 How often you have a feeling that you could do something more efficiently? Regardless of what it is. It can be related to opening files, writing a function, typing or managing windows on the screen.
 
-As a programmer I have this feeling all the time. [Here](https://kuzzmi.com/blog/code-completion-thank-you-but-no) I've tried to describe my experience with adopting a no-colors and no-code-completion feature.
+As a programmer I have this feeling all the time. [Here](/blog/code-completion-thank-you-but-no) I've tried to describe my experience with adopting a no-colors and no-code-completion feature.
 
 Now it's a time for a new experiment: I've decided to move all the numbers to the combination of `Shift+[number]` and symbols to just `[number]`.
 

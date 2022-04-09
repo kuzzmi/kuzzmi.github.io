@@ -29,10 +29,6 @@ When I was a kid I had broken my hand a few times and it took my hand 20 years t
 
 I'm always keen to try something unusual. And the keyboard layout wasn't an exception. As you might now, [QWERTY][3] wasn't designed for a comfortable typing experience using PC. If you are seeking for something that was designed specifically for that purpose you have a few other popular options: [Dvorak][2] and [Colemak][1].
 
-_Just take a look how different they are (images from Wikipedia)_
-
-![](/uploads/7f935629a3ed24093d3a18e72c268bfc)
-
 I tried [Dvorak][2] several times, but it didn't work pretty well for me due to the fact that I'm Vim user and generally speaking it was very difficult to learn.
 
 The difference between Dvorak and Colemak is that the former differs _very_ much from QWERTY, whereas the latter is 48% QWERTY-like, meaning that the most of hotkeys are on their places. At the same time, the buttons on the home row are very frequently used and you can type a lot of words just from it. So it seems like a great replacement for QWERTY.
@@ -43,9 +39,7 @@ So the layout of my choice clearly was Colemak.
 
 Adoption period was horrible, to be honest, my productivity dropped almost to 0, as I always use cold turkey method of learning new stuff.
 
-However, after 3 weeks, my typing speed climbed back to norm, thanks to [](https://www.keybr.com/):
-
-![](/uploads/c0f8a8f68868b9cb47c26651695c7195)
+However, after 3 weeks, my typing speed climbed back to norm, thanks to [](https://www.keybr.com/).
 
 It took me about 21 days (1 hour a day for 3 weeks) to get back to my usual typing speed. Quite a little price for the ability to type longer with much less effort. Especially, if you take into account that this happened during my transition to ErgoDox.
 
@@ -55,15 +49,9 @@ It's been a while since I wanted to switch to an ergonomic mechanical keyboard. 
 
 I even started building my own keyboard, but managed to build only one of two parts of a split keyboard. I made a few mistakes in choosing materials and keys layout.
 
-![](/uploads/cf584255d30a4a98915e75d22874f99e)
-
 In order to understand what I need and how it must be built I decided to order ErgoDox from [Massdrop](https://www.massdrop.com/r/GF8XYU) website, so I can build it and see how it works for me.
 
 After assembling I immediately switched to Colemak. I needed to adopt to a new keyboard anyway, so I decided to combine two things I had to get used to and cold turkey is the best way of doing that.
-
-This is how my setup looks like after switching:
-
-![](/uploads/9aaf19e70b5f04b8c0d855a671e6c225)
 
 ## Verdict
 
@@ -76,7 +64,7 @@ Here is a list of why I would do this again:
 3. ErgoDox placed all the keys in the position where your fingers naturally look for them. I went a bit further and moved numbers and characters like `<([{}])>` on the home row and can type comfortably without a lot of finger movement.
 4. Having separate keys for your thumbs feels like magic. I had so much frustration with the original space bar, like "Why this key is so long?!".
 5. It's another level of "geekness", a bit of IKEA effect of feeling that you've built a thing yourself.
-6. Easy to experiment with new stuff, as I described in one of my [previous posts](https://kuzzmi.com/blog/no-numbers-symbols-first).
+6. Easy to experiment with new stuff, as I described in one of my [previous posts][4].
 
 And of course there are some drawbacks of switching:
 
@@ -85,8 +73,7 @@ And of course there are some drawbacks of switching:
 
 That's all. As you can see pros outweight cons, so I hope you can find something useful and convincing for yourself.
 
-**Share your thoughts, experience and questions in the comments section**
-
 [1]: https://colemak.com/
 [2]: http://www.dvorak-keyboard.com/
 [3]: https://en.wikipedia.org/wiki/QWERTY
+[4]: /blog/no-numbers-symbols-first

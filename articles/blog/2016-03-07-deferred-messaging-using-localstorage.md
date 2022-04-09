@@ -24,8 +24,8 @@ The whole messaging between the master page (MP) and iframes is done by using `w
 > **7.2.3 Posting messages**
 >
 > ```
-window.postMessage(message, [ports,] targetOrigin)
-```
+> window.postMessage(message, [ports,] targetOrigin)
+> ```
 > Posts a message, optionally with an array of ports, to the **given window**.
 >
 > -- **[www.w3.org](https://www.w3.org/TR/2009/WD-html5-20090423/comms.html)**
@@ -102,5 +102,6 @@ After that we can open the master page without any iframes, insert one with the 
 
 That's it.
 
-If you have any comments or suggestions, please let me know in the comments section below.
+If you have any comments or suggestions, please let [me know][twitter].
 
+[twitter]: http://twitter.com/kuzzmi

@@ -42,8 +42,6 @@ So, let's say we have a following DOM:
   </div>
 ```
 
-![](/uploads/fe25ac3980c8fd4c3876d266b8e91cf0)
-
 And we're given the node with id `node1` we need to be able to have just `#root1`, `#root2` and `#node1` to point to the node with id `node2`.
 
 Few things you can show off doing a task: understanding of prototyping, knowledge of basic Node properties, such as `parentNode` and `childNodes` and array methods.
@@ -51,8 +49,6 @@ Few things you can show off doing a task: understanding of prototyping, knowledg
 My first idea was to go from top to bottom to find a needed node, collecting a list of indices as I dive deeper in the tree, but then I remembered about `parentNode`.
 
 So the second idea is to go from a given node to the root node while collecting indices of the current node among its parent's children. After reaching the top, we can use the resulting path to go through the second root node and find a symmetrical node.
-
-![](/uploads/3b1a759b128fd0d0d665849e50cdf819)
 
 ```javascript
 // This function returns a real array of Nodes, so we can use methonds like "indexOf"

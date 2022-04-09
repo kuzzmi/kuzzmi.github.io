@@ -120,4 +120,6 @@ game.start();
 console.log(game.toString());
 ```
 
-My solution is not supposed to be the best and the only valid and correct, so please let me know what do you think about it and whether you have a better solution.
+My solution is not supposed to be the best and the only valid and correct, so please let [me know][twitter] what do you think about it and whether you have a better solution.
+
+[twitter]: http://twitter.com/kuzzmi

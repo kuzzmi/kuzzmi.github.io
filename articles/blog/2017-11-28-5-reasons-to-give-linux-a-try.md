@@ -44,13 +44,18 @@ and download it for free.
 one is his friend from another city. Suddenly a man breaks in, starts shooting
 and shouting very loudly and leaves. Nobody reacts.
 >
-> -- Billy?
-> -- Yes, Harry?
-> -- What was that?
-> -- That was Slippery Joe, Harry.
-> -- Does it mean nobody is able to catch him?
-> -- No, Harry. That's because nobody wants to.
+> — Billy?
 >
+> — Yes, Harry?
+>
+> — What was that?
+>
+> — That was Slippery Joe, Harry.
+>
+> — Does it mean nobody is able to catch him?
+>
+> — No, Harry. That's because nobody wants to.
+><br /><br />
 > _A joke_
 
 Anything human built is by no means 100% unhackable, let's be clear and agree
@@ -107,13 +112,13 @@ reasons to use Linux.
 Take a look at these posts from
 [/r/unixporn](https://www.reddit.com/r/unixporn):
 
-{% include ref-screenshot.md screenshot="http://i.imgur.com/5otzCMo.jpg" source="https://www.reddit.com/r/unixporn/comments/6vjua2/gnome_they_said_linux_is_for_it_people_only_my/" %}
+![](http://i.imgur.com/5otzCMo.jpg)
 
-{% include ref-screenshot.md screenshot="https://i.redditmedia.com/TCsJ2ds6-Mx7Hs8CR_uu57c1ngjngPR4Up1VQHGOrFI.png?w=1024&s=0aedd1cacc0699eb06a463c0bc4214cb" source="https://www.reddit.com/r/unixporn/comments/7djwht/openbox_vinyl/" %}
+![](https://i.redditmedia.com/TCsJ2ds6-Mx7Hs8CR_uu57c1ngjngPR4Up1VQHGOrFI.png?w=1024&s=0aedd1cacc0699eb06a463c0bc4214cb)
 
-{% include ref-screenshot.md screenshot="http://i.imgur.com/B1oroyH.jpg" source="https://www.reddit.com/r/unixporn/comments/367a7i/oc_flat_gnome_theme/" %}
+![](http://i.imgur.com/B1oroyH.jpg)
 
-{% include ref-screenshot.md screenshot="https://i.imgur.com/8F7MU2K.png" source="https://www.reddit.com/r/unixporn/comments/6xlmsf/herbstluftwm_gloomy_night/" %}
+![](https://i.imgur.com/8F7MU2K.png)
 
 If you can do the same things in other OSes, that's great. But what amount of
 effort it takes?

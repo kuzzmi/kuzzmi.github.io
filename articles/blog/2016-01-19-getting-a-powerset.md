@@ -61,4 +61,6 @@ function getPowerset(S) {
 }
 ```
 
-Yep, that's it. If you know the better way of solving that, please let me know.
+Yep, that's it. If you know the better way of solving that, please let [me know][twitter].
+
+[twitter]: http://twitter.com/kuzzmi

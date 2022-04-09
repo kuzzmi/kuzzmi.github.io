@@ -19,7 +19,7 @@ The first problem I had was the separation of the concepts into `core`, `dom` an
 
 The second one, and I must admit it made me worried a bit, was the simple activity indication. After digging through the docs I found an [example][1], that does what I need, but what I had to figure out after just staring at the source code for about a half an hour.
 
-__Activity indication is freaking important enough in routing library to be missed as a separate \"LOOK HOW IT'S DONE\" example.__
+__Activity indication is freaking important enough in routing library to be missed as a separate "LOOK HOW IT'S DONE" example.__
 
 Couldn't stress this enough... Anyway.
 
@@ -30,7 +30,6 @@ The key is that the routing now is fully declarative, meaning that it allows us 
 The following example needs to be tweaked just a bit to work in web, but here's the React Native version:
 
 ```javascript
-{% raw %}
 import { Route, Link } from 'react-router-native';
 function LinkWithIndicator({ to, label }) {
     return (
@@ -54,7 +53,6 @@ function LinkWithIndicator({ to, label }) {
  </BrowserRouter>
 
  */
-{% endraw %}
 ```
 
 [1]: https://reacttraining.com/react-router/native/example/custom-link

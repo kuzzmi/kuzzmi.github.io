@@ -44,7 +44,6 @@ Then we need to create a new initializer as we want this to happen only on the i
 Then we may define a list of fonts that we can use for our appilication:
 
 ```javascript
-{% raw %}
 // app/initializers/webfont-loader.js
 
 /* globals WebFont */
@@ -64,7 +63,6 @@ export default {
   name: 'webfont-loader',
   initialize
 };
-{% endraw %}
 ```
 
 That is basically it. The result of doing this will be a few events that you can use to do what you need.
@@ -74,7 +72,6 @@ Unfortunatelly these events are just simple classes on your `<html>` element, bu
 I'm using one more initializer to reopen the `Ember.Route` class and add more things to its `didTransition` actions:
 
 ```javascript
-{% raw %}
 import Ember from 'ember';
 
 // this is not the best solution from design perspective,
@@ -127,11 +124,12 @@ export default {
   name: 'nav-indicator',
   initialize
 };
-{% endraw %}
 ```
 
 That was a small example of the usefulness of Web Font Loader library and how to put it inside Ember application.
 
-Please let me know in the comments if you have any questions or you have solved this problem in a different way.
+Please let [me know][twitter] if you have any questions or you have solved this problem in a different way.
 
 **UPDATE 20/02/2016**: As per discussions in comments and suggestions from Ken and Andrey, I've published [ember-cli-webfontloader](https://www.npmjs.com/package/ember-cli-webfontloader) addon to avoid all that headache. You may use it, but anyway, I believe that this post is not just about solving one problem, but for showing you, how to solve one-time problems like that.
+
+[twitter]: http://twitter.com/kuzzmi

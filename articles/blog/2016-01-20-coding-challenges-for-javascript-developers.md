@@ -21,4 +21,6 @@ Here is the list of competitive programming sites that allow you to use JavaScri
 1. [CoderByte](https://coderbyte.com/challenges/). Personally I haven't used it, but it exists. At least this fact is worth of mentioning it :) Has not so many challenges.
 1. [The Project Euler](http://projecteuler.net/) only requires you to enter the right answer, therefore there is no restriction on the language you use. Incredibly popular as far as I know.
 
-I want to keep this list up-to-date, so if you know more online judging systems and/or coding challenging platforms that support JavaScript, please leave the comment below.
+I want to keep this list up-to-date, so if you know more online judging systems and/or coding challenging platforms that support JavaScript, please [ping me on Twitter][twitter].
+
+[twitter]: http://twitter.com/kuzzmi

@@ -16,9 +16,7 @@ description: >
 ---
 After dropping the support of IE9, I finally managed to properly refactor views and styles of one of my applications, and I thought that it could be interesting for someone else, as I simply couldn't find any information about combining the relative sizes and flexbox.
 
-The layout is pretty common, but some of the application's features required me to move away from straighforward implementation and due to "we need this now!" I had to use a lot of `/* TODO: refactor later */` techniques. The layout can be presented as shown below:
-
-![](/uploads/5905058ebfc07ffd9de78983afb80911)
+The layout is pretty common, but some of the application's features required me to move away from straighforward implementation and due to "we need this now!" I had to use a lot of `/* TODO: refactor later */` techniques.
 
 Initially I used a combination of "absolute fullscreen" styles with very messy nesting and something else that I would delete as soon as I have a chance to do that.
 

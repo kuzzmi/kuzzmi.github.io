@@ -32,7 +32,7 @@ To start developing our addon we need to generate a basic addon structure, to do
 ember addon ember-cli-webfontloader
 ```
 
-After a few moments ember-cli will create a folder structure with all necessary files and initiate `bower install` and `npm install`. After that you'll have a basic \"do nothing\" addon sources.
+After a few moments ember-cli will create a folder structure with all necessary files and initiate `bower install` and `npm install`. After that you'll have a basic "do nothing" addon sources.
 
 As you may know, [Ember][e] follows the “convention over configuration”, the same does Ember CLI, this is why you may find the generated structure pretty familiar:
 
@@ -66,7 +66,7 @@ As you may know, [Ember][e] follows the “convention over configuration”, the
 
 **Note**: Unfortunately, at the time of writing this post, the latest version of [Ember][e] (2.3.1) has a bug, related to the new version of [jQuery][jq] (1.12). Ember is not able to handle the new version of jQuery and `ember test` and `ember server` are not working because of that. See StackOverflow topic related to that issue: [link](http://stackoverflow.com/questions/34702284/getting-uncaught-error-assertion-failed-ember-views-require-jquery-between-1). The solution from SO answer:
 > For now you can change the following line in your `bower.json` file. Then run `bower install` and it should work.
-`\"jquery\": \"^1.11.3\"`, to `\"jquery\": \"1.11.3\"`
+`"jquery": "^1.11.3"`, to `"jquery": "1.11.3"`
 
 After we installed all our dependencies we need to check if everything is working. In order to do this, run:
 
@@ -229,8 +229,8 @@ So now you have already working addon, which can do something useful. In the nex
 * [Creating an Ember.js Addon With the Ember CLI](http://johnotander.com/ember/2014/12/14/creating-an-emberjs-addon-with-the-ember-cli/)
 
 [jq]: http://jquery.com
-[post]: https://kuzzmi.com/blog/web-fonts-webfontloader-and-ember \"Web Fonts, WebFontLoader and Ember | Blog | Igor Kuzmenko\"
-[wfl]: https://github.com/typekit/webfontloader \"WebFontLoader - GitHub\"
-[ecli]: http://ember-cli.com \"Ember CLI\"
+[post]: https://kuzzmi.com/blog/web-fonts-webfontloader-and-ember
+[wfl]: https://github.com/typekit/webfontloader
+[ecli]: http://ember-cli.com
 [e]: http://emberjs.org
 [b]: http://bower.io/
