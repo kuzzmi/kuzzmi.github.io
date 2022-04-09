@@ -24,7 +24,7 @@ export default function Post({ post }) {
           type: "article",
           article: {
             publishedTime: post.meta.date,
-            authors: ["https://kuzzmi.com"],
+            authors: ["https://kuzzmi.com/about"],
             tags: post.meta.tags,
           },
           // TODO: add generated images here

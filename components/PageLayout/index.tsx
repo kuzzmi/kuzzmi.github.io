@@ -28,7 +28,6 @@ const MenuLink: React.FC<{
 /*
     <MenuLink href="/podcast">{tr("menu.podcast")}</MenuLink>
     <MenuLink href="/projects">{tr("menu.projects")}</MenuLink>
-    <MenuLink href="/about">{tr("menu.about")}</MenuLink>
  */
 
 const PageLayout: React.FC = ({ children }) => {
@@ -52,6 +51,7 @@ const PageLayout: React.FC = ({ children }) => {
           </MenuLink>
           <MenuLink href="/blog">{tr("menu.blog")}</MenuLink>
           <MenuLink href="/thoughts">{tr("menu.thoughts")}</MenuLink>
+          <MenuLink href="/about">{tr("menu.about")}</MenuLink>
         </ul>
       </menu>
       <section className={styles.content_container}>
