@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   strictMode: true,
   env: {
-    PUBLIC_URL: "https://demo.kuzzmi.com",
+    PUBLIC_URL: "https://kuzzmi.com",
     assetPrefix: "./",
   },
 };

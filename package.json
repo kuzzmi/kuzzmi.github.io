@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3000",
-    "generate:files": "touch out/.nojekyll && echo demo.kuzzmi.com > out/CNAME",
+    "generate:files": "touch out/.nojekyll && echo kuzzmi.com > out/CNAME",
     "build": "rm -rf out && next build && next export && yarn generate:files",
     "deploy": "gh-pages -b main -d out -t",
     "start": "next start",
     "lint": "next lint"
   },
-  "homepage": "https://demo.kuzzmi.com",
+  "homepage": "https://kuzzmi.com",
   "dependencies": {
     "@types/showdown": "^1.9.4",
     "next": "12.1.4",
