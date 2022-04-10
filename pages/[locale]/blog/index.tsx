@@ -1,22 +1,33 @@
 import React from "react";
-import Head from "next/head";
 import { useTranslation } from "next-i18next";
 import { getStaticPaths, getI18nProps } from "@/lib/getStatic";
 import PageLayout from "@/components/PageLayout";
 import ArticleListItem from "@/components/ArticleListItem";
 import styles from "@/styles/Home.module.css";
 import { getArticles } from "@/lib/articles";
+import { NextSeo } from "next-seo";
+import { useRouter } from "next/router";
 
 export default function Blog({ articles }) {
   const { t: tr } = useTranslation();
-
+  const router = useRouter();
   return (
     <>
-      <Head>
-        <title>
-          {tr("menu.blog")} | {tr("common.name")}
-        </title>
-      </Head>
+      <NextSeo
+        title={`${tr("menu.blog")} | ${tr("common.name")}`}
+        description={tr("blog.description")}
+        canonical={`https://kuzzmi.com${router.asPath}`}
+        openGraph={{
+          site_name: tr("common.name"),
+          title: tr("menu.blog"),
+          description: tr("blog.description"),
+          url: `https://kuzzmi.com${router.asPath}`,
+        }}
+        twitter={{
+          handle: "@kuzzmi",
+          cardType: "summary_large_image",
+        }}
+      />
 
       <PageLayout>
         <div className={styles.summary}>

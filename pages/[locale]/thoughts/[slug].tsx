@@ -19,6 +19,7 @@ export default function Post({ post }) {
         description={post.description}
         canonical={`https://kuzzmi.com${router.asPath}`}
         openGraph={{
+          site_name: tr("common.name"),
           title: post.meta.title,
           description: post.meta.description,
           url: `https://kuzzmi.com${router.asPath}`,
