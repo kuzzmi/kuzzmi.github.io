@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2017-01-17 20:15:42 +0200
+date:        2017-01-17T20:15:42Z
 title:       "Searching for a Symmetric Node"
 lang:        en
 tags:

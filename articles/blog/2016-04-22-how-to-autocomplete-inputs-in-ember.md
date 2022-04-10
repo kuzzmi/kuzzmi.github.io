@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-04-22 23:49:13 +0200
+date:        2016-04-22T23:49:13Z
 title:       "How To: Autocomplete Inputs in Ember"
 lang:        en
 tags:

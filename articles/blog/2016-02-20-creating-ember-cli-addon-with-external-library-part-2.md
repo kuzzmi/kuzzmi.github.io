@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-02-20 13:58:16 +0200
+date:        2016-02-20T13:58:16Z
 title:       "Creating Ember CLI Addon with External Library. Part 2"
 lang:        en
 tags:

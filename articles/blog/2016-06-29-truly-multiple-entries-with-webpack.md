@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-06-29 15:16:15 +0200
+date:        2016-06-29T15:16:15Z
 title:       "Truly Multiple Entries with Webpack"
 lang:        en
 tags:

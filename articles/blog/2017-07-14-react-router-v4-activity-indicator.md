@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2017-07-14 13:27:17 +0200
+date:        2017-07-14T13:27:17Z
 title:       "React-Router v4: Activity indicator"
 lang:        en
 tags:

@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-01-22 09:28:06 +0200
+date:        2016-01-22T09:28:06Z
 title:       "Heartbeat and Polling"
 lang:        en
 tags:

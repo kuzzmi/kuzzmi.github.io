@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-03-26 18:36:22 +0200
+date:        2016-03-26T18:36:22Z
 title:       "Animating Path's Transparency"
 lang:        en
 tags:

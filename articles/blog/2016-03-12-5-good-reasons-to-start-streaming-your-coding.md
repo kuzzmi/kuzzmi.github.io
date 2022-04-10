@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-03-12 22:47:01 +0200
+date:        2016-03-12T22:47:01Z
 title:       "5 Good Reasons To Start Streaming Your Coding"
 lang:        en
 tags:

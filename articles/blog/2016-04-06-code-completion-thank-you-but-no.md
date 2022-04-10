@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-04-06 19:50:32 +0200
+date:        2016-04-06T19:50:32Z
 title:       "Code completion? Thank you, but no."
 lang:        en
 tags:

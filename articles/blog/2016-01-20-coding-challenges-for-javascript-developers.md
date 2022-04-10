@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-01-20 18:10:13 +0200
+date:        2016-01-20T18:10:13Z
 title:       "Coding Challenges for Javascript Developers"
 lang:        en
 tags:

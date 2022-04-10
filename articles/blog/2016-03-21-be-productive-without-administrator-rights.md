@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-03-21 15:44:51 +0200
+date:        2016-03-21T15:44:51Z
 title:       "Be Productive without Administrator Rights"
 lang:        en
 tags:

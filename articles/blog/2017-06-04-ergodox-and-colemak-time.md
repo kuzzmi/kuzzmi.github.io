@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2017-06-04 21:28:38 +0200
+date:        2017-06-04T21:28:38Z
 title:       "ErgoDox and Colemak Time"
 lang:        en
 tags:

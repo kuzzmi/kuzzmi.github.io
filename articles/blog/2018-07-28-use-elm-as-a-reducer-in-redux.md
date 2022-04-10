@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2018-07-28 22:53:59 +0200
+date:        2018-07-28T22:53:59Z
 title:       "Use Elm as a Reducer in Redux"
 lang:        en
 tags:

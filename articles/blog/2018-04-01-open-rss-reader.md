@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2018-04-01 10:40:37 +0300
+date:        2018-04-01T10:40:37Z
 title:       "Open RSS Reader"
 lang:        en
 tags:

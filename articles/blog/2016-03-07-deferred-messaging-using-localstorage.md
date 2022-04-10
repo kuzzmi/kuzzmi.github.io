@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-03-07 14:16:31 +0200
+date:        2016-03-07T14:16:31Z
 title:       "Deferred Messaging Using localStorage"
 lang:        en
 tags:

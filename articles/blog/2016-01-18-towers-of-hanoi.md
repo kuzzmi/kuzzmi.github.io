@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-01-18 22:53:59 +0200
+date:        2016-01-18T22:53:59Z
 title:       "Towers of Hanoi"
 lang:        en
 tags:

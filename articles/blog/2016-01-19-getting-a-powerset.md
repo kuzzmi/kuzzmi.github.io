@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-01-19 00:38:39 +0200
+date:        2016-01-19T00:38:39Z
 title:       "Getting a Powerset"
 lang:        en
 tags:

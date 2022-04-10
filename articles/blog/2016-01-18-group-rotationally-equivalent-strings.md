@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-01-18 21:09:43 +0200
+date:        2016-01-18T21:09:43Z
 title:       "Group rotationally equivalent strings"
 lang:        en
 tags:

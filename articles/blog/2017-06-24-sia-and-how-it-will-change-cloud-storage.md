@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2017-06-24 12:00:59 +0200
+date:        2017-06-24T12:00:59Z
 title:       "Sia and How It Will Change Cloud Storage"
 lang:        en
 tags:

@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2017-01-20 15:01:39 +0200
+date:        2017-01-20T15:01:39Z
 title:       "Perfectionist Tips: Plan and Prioritize"
 lang:        en
 tags:

@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2017-11-28 00:36:36 +0200
+date:        2017-11-28T00:36:36Z
 title:       "5 Reasons To Give Linux A Try"
 lang:        en
 tags:

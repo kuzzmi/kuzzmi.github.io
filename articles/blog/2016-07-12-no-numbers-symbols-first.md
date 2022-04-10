@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-07-12 16:59:43 +0200
+date:        2016-07-12T16:59:43Z
 title:       "No Numbers, Symbols First"
 lang:        en
 tags:

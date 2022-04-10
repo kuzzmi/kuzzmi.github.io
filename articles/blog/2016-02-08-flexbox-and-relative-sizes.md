@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-02-08 11:15:51 +0200
+date:        2016-02-08T11:15:51Z
 title:       "Flexbox and Relative Sizes"
 lang:        en
 tags:

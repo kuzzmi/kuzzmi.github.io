@@ -1,6 +1,6 @@
 ---
 layout:      post
-date:        2016-02-07 17:54:44 +0200
+date:        2016-02-07T17:54:44Z
 title:       "Web Fonts, WebFontLoader and Ember"
 lang:        en
 tags:
