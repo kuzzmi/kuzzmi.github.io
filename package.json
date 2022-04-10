@@ -12,7 +12,9 @@
   },
   "homepage": "https://kuzzmi.com",
   "dependencies": {
+    "@napi-rs/canvas": "^0.1.21",
     "@types/showdown": "^1.9.4",
+    "cwebp": "^2.0.5",
     "next": "12.1.4",
     "next-i18next": "^11.0.0",
     "next-language-detector": "^1.0.2",

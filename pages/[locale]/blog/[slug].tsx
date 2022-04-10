@@ -7,6 +7,7 @@ import { getArticle, getSlugFromFilename } from "../../../lib/articles";
 import ArticleLayout from "@/components/ArticleLayout";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
+import { generateMainImage } from "@/lib/thumbnails";
 
 export default function Post({ post }) {
   const { t: tr, i18n } = useTranslation();
@@ -27,8 +28,15 @@ export default function Post({ post }) {
             authors: ["https://kuzzmi.com/about"],
             tags: post.meta.tags,
           },
-          // TODO: add generated images here
-          images: [],
+          images: [
+            {
+              url: `https://kuzzmi.com/assets/articles/blog/${post.meta.slug}/cover.png`,
+              width: 1342,
+              height: 853,
+              alt: post.meta.title,
+              type: "image/png",
+            },
+          ],
         }}
         twitter={{
           handle: "@kuzzmi",
@@ -44,6 +52,15 @@ export async function getStaticProps(ctx: GetStaticPropsContext) {
   const slug = ctx.params.slug as string;
   const post = getArticle("blog", slug);
   const i18nProps = await getI18nProps(ctx);
+
+  generateMainImage(
+    `public/assets/articles/blog/${slug}`,
+    "cover",
+    ["#ff416c", "#ff4b2b"],
+    post.meta.title,
+    "Tech article",
+    "👷"
+  );
 
   return {
     props: {

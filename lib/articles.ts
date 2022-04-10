@@ -3,6 +3,8 @@ import yaml from "yaml";
 import { Converter } from "showdown";
 import showdownHighlight from "showdown-highlight";
 
+import { generateMainImage } from "./thumbnails";
+
 export const getSlugFromFilename = (fileName: string) => {
   // fileName is yyyy-mm-dd-slug.md
   const article = fileName.slice(0, fileName.indexOf(".md"));
@@ -97,6 +99,8 @@ export const getArticle = (root: "thoughts" | "blog", slug: string) => {
     const html = converter.makeHtml(content);
     const metaRaw = converter.getMetadata(true) as string;
     const meta = yaml.parse(metaRaw);
+    const tags = Array.isArray(meta.tags) ? meta.tags : [meta.tags];
+
     return {
       html,
       type: root,
@@ -106,7 +110,7 @@ export const getArticle = (root: "thoughts" | "blog", slug: string) => {
         layout: meta.layout,
         lang: meta.lang,
         description: meta.description || "",
-        tags: Array.isArray(meta.tags) ? meta.tags : [meta.tags],
+        tags,
         date: meta.date,
       },
     };
